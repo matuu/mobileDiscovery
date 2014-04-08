@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+	<TextView 
+        android:id="@+id/nombre_enviar_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textIsSelectable="true"
+        android:padding="4dp"  
+              
+        />
+	
+	<TextView
+        android:id="@+id/ip_enviar_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:gravity="right"
+       	android:textIsSelectable="true"
+        android:padding="4dp"
+        />
+	
+	<Button
+	    android:id="@+id/btn_enviar_msg"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/btn_enviar_msg"
+	    android:textSize="16sp" />
+</LinearLayout>

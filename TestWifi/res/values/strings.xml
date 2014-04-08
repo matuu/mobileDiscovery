@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestWifi</string>
+    <string name="action_view_broadcast">Configuracion</string>
+    <string name="my_ip"></string>
+    <string name="lbl_send_bc">Buscar dispositivos cercanos</string>
+    <string name="hint_nombre">Escribe tu nombre</string>
+    <string name="lbl_guardar_nombre">OK</string>
+    <string name="lbl_hacer_visible">Permitir que otros usuarios me vean</string>
+	<string name="lbl_list_title">Dispositivos cercanos:</string>
+	<string name="btn_enviar_msg">Enviar $100</string>
+</resources>

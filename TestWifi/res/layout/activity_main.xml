@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/my_ip"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:textAlignment="center"
+        android:text="@string/my_ip"
+        android:layout_weight="1" />
+    
+     
+
+    <Button
+        android:id="@+id/send_bc"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+		android:layout_weight="1"
+        android:text="@string/lbl_send_bc" />
+
+    <ListView
+        android:id="@+id/listResultado"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+ 	/>
+    
+	<TextView
+        android:id="@+id/status"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:textAlignment="center"
+        android:textColor="#a00"
+        android:textIsSelectable="false"
+        android:layout_weight="1" >
+	    
+	</TextView>
+        </LinearLayout>
